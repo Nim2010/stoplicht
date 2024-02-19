@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="0I+G%S_SPsLj/^v{RGyt" x="0" y="0"><statement name="HANDLER"><block type="set_traffic_light_state" id="=y#FYS-ya(^pUY[T^IUD"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="device_show_leds" id="X4-.}jadyjmzM=M-:DKq"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></statement></block><block type="device_forever" id="~M9hhd{h%r+3kv.v$WDb" x="217" y="293"><statement name="HANDLER"><block type="controls_if" id="4*)FUQ?j5/hQMZL!wN}5"><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id="vcr#Z.Z5w(no^9-z(]|r"><field name="NAME">Button.B</field></block></value><statement name="DO0"><block type="device_pause" id=";8)KvX,Ey!V7$T5;rhS*"><value name="pause"><shadow type="timePicker" id="*jy}[{$hnO8OTVTE_vom"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_state" id="*eUg)g7U%]^5u#4i86l7"><field name="lightState">Kitronik_STOPbit.LightStates.Go</field><next><block type="device_show_leds" id="W0Jcmg2V{w1`(QJAlFPv"><field name="LEDS">`
+        . . # . . 
+        . # . . . 
+        # # # # # 
+        . # . . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="m/a88^y`HL7ROhhf,~k{"><value name="pause"><shadow type="timePicker" id="0Jj?;7~m,1e/J}]s+bey"><field name="ms">5000</field></shadow></value><next><block type="set_traffic_light_state" id="gC6pFugK0!CmRCd-hyK("><field name="lightState">Kitronik_STOPbit.LightStates.ReadyToStop</field><next><block type="device_show_leds" id="RR4xz,cJ*_H:j}b:bW}w"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . # . .
+        `</field><next><block type="device_pause" id="(qp=B!l5L96Io8.O%mfp"><value name="pause"><shadow type="timePicker" id="T|vC^{DPGbi:*UxLSnb1"><field name="ms">2000</field></shadow></value><next><block type="set_traffic_light_state" id="B,jjO=$cctu;YNF6{U=9"><field name="lightState">Kitronik_STOPbit.LightStates.Stop</field><next><block type="device_show_leds" id="jZZ/+@z:0uWcIE+(m,oG"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block></xml>
